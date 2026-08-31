@@ -1,23 +1,19 @@
-# Johannes Hankø
+## Johannes — @Hank-dev
 
-MSc student in Industrial Economics and Technology Management at NTNU. I build self-hosted data products from ingestion and domain logic to decision interfaces and VPS deployment.
+Industrial Economics & Technology Management (indøk) @ NTNU, 4th year.
+I build data tools end-to-end and self-host them (Docker, own VPS): ingest → storage → analysis → UI.
 
-**Seeking summer 2027 roles in Oslo or Trondheim:** applied analytics / BI, health data, energy & technology analysis, and startup product work.
+### Projects
 
-## Flagship work
-
-| Project | What it demonstrates | Stack |
+| Project | What it does | Stack |
 |---|---|---|
-| **[Hanky sin Garmin](https://github.com/Hank-dev/hanky-sin-garmin)** | A private recovery and training system: Garmin ingestion, SQLite history, personal baselines, safety-gated recommendations, and an operational dashboard. | Python · pandas · SQLite · Streamlit · pytest |
-| **[Market Monitor](https://github.com/Hank-dev/dollar-dashboard)** | A source-aware decision dashboard connecting dollar liquidity, BTC, AI infrastructure, and nuclear energy data. | Next.js · TypeScript · public APIs · Docker |
-| **[Trading Research Agent](https://github.com/Hank-dev/trading-research-agent)** | A reproducible research workflow with pre-registered comparisons, held-out lockboxes, stress tests, and paper-trading handoff. | Python · pandas · LangGraph · vectorbt · pytest |
-| **[BJJ Tournament Desk](https://github.com/Hank-dev/bjj-tournament)** | A full-stack tournament tool for registrations, brackets, match operations, and shared persistent storage. | React · TypeScript · Node.js · Docker |
+| [hanky-sin-garmin](https://github.com/Hank-dev/hanky-sin-garmin) | Personal Garmin Coach — syncs Garmin Connect into SQLite, derives recovery & training metrics, Streamlit dashboard, AI coaching summaries | Python · Streamlit · SQLite · pandas |
+| [trading-research-agent](https://github.com/Hank-dev/trading-research-agent) | Natural-language trading idea → structured, reproducible backtest → forward paper-trading | Python · LLM agents · backtesting |
+| [edgefinder](https://github.com/Hank-dev/edgefinder) | Self-hosted opportunity-intelligence pipeline — collectors, evidence store, LLM ranking, MCP surface for multi-agent research | Python · Docker · MCP |
+| [dollar-dashboard](https://github.com/Hank-dev/dollar-dashboard) | Self-hosted market monitor: macro, BTC, AI models, nuclear energy + LLM explanation layer | Next.js · TypeScript |
+| [okojitsu](https://github.com/Hank-dev/okojitsu) | Ecological jiu-jitsu coaching app — 161-game CLA library, smart session generator, suggestion engine | React · TypeScript · Vite |
+| [bjj-tournament](https://github.com/Hank-dev/bjj-tournament) | Web app for setting up and running BJJ tournaments | TypeScript |
+| [streamer-plus](https://github.com/Hank-dev/streamer-plus) | Fedora desktop → Chromecast low-latency screen streaming (Open Screen Protocol + GStreamer) | C++ · GStreamer |
+| [spyfall-web](https://github.com/Hank-dev/spyfall-web) | Spyfall party game in the browser | HTML · JS |
 
-## How I work
-
-- Build end to end: data collection, domain logic, interface, deployment, and operations.
-- Keep provenance and limitations visible instead of presenting model output as ground truth.
-- Prefer tested, reproducible workflows over one-off notebooks and demos.
-- Use real problems as the specification: health decisions, research discipline, market monitoring, and event operations.
-
-Most projects run on a private VPS; public READMEs use synthetic or public data where personal information is involved.
+Open to summer 2027 internships (Oslo / Trondheim): analytics & BI, health-data, energy/tech analysis.
