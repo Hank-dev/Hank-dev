@@ -2,7 +2,6 @@
 
 4th-year Industrial Economics and Technology Management (indøk) at NTNU.
 
-I build tools I actually run: collect the data, store it, analyse it, put a UI on it, host it on my own VPS.
 
 ### Projects
 
