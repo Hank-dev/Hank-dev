@@ -7,7 +7,6 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| [ai-value-office](https://github.com/Hank-dev/ai-value-office) | Multi-agent investment office for industrial AI: process twin, techno-economics, CVaR capital allocation | Python, numpy, pytest |
 | [hanky-sin-garmin](https://github.com/Hank-dev/hanky-sin-garmin) | Garmin Connect into SQLite, recovery and training metrics, Streamlit dashboard, AI coaching summaries | Python, Streamlit, SQLite, pandas |
 | [trading-research-agent](https://github.com/Hank-dev/trading-research-agent) | Trading idea in, structured reproducible backtest out, then paper-trading | Python, LLM agents, backtesting |
 | [edgefinder](https://github.com/Hank-dev/edgefinder) | Opportunity-intelligence pipeline: collectors, evidence store, LLM ranking, MCP surface | Python, Docker, MCP |
